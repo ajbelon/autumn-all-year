@@ -1,0 +1,1832 @@
+/* 
+Colors:
+#6F7302 green
+#8C6A03 green/brown
+#A64F03 reddish brown
+#F28B0C mustard yellow
+#D93D04 orange red
+--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* flyout menu on mobile source:"https://codepen.io/shieldsma91/pen/zLpbLX" */
+
+
+/* Global styles */
+
+/* text */
+.prepcook {
+    color: white;
+    position: absolute;
+}
+.prepcook ul {
+    list-style-type: none;
+    line-height: 1em;
+}
+body {
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0 0 1em 0;
+    font-size: 2.8em;
+    font-weight: 500;
+    text-shadow: 1.5px 1px black;
+}
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+h3 {
+    margin: 0 0 .5em 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+p {
+    margin: 0 0 1em 0;
+}
+a {
+    color: #F28B0C;
+    text-decoration: none;
+}
+a:visited {
+    color: #F28B0C;
+    text-decoration: none;
+}
+
+/* Mobile media query and styles */
+@media screen and (max-width: 580px) {
+    .phone a {
+        height: 15px;
+    }
+    .phone img {
+        height: 48px;
+        margin-right: 5px;
+        margin-left: 25px;
+    }
+    page {
+        height: calc(100vh);
+    }
+    header {
+        width: 100%;
+        position: fixed;
+        text-decoration: none;
+        margin-left: 0;
+        top: 5px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #1E1E23;
+        opacity:1;
+        font-size: 1.5em;
+        font-weight: 400;
+        transition: 200ms;
+        z-index: 2;
+    }
+    .hamburgercontainer {
+        display: inline;
+        justify-content: left;
+        width: 100%;
+        top:0;
+        left: 0;
+    }
+    nav {
+        background-color: black;
+        height: 70px;
+        width: 75px;
+        margin: 5px;
+        top: 0;
+        left: 25px;
+    }
+    nav a:visited {
+        color: black;
+    }
+    #menuToggle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+        user-select: none;
+    }
+    #menuToggle input {
+        display: flex;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+    #menuToggle span {
+        display: flex;
+        width: 29px;
+        height: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        box-shadow: 0 0 10px black;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked ~ span {
+        transform: rotate(45deg) translate(-3px, -1px);
+        background: #36383F;
+    }
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu {
+        position: absolute;
+        width: 250px;
+        height: 550px;
+        box-shadow: 0 0 10px #85888C;
+        margin: -50px 0 0 -50px;
+        padding-left: 85px;
+        padding-top: 30px;
+        background-image: linear-gradient(to right, rgba(140,106,3,.95), rgba(242,139,12,.95), rgba(191,88,65, .95));
+        border-radius: 10px;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        transition-delay: 2s;
+    }
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+    .logo {
+        float: right;
+        margin-right: 15px;
+    }
+    
+ /* Mobile Main */
+    .mobilenavigationhome {
+        background-color: black;
+        position: relative;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .mobilenavigationhome::after {
+        display: block;
+        clear: both;
+    }
+    li {
+        flex: 1 0 auto;
+        text-decoration: none;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;  
+        text-decoration: none;
+    }
+    ul li:hover {
+        font-weight: bold;
+    }
+    ul li:hover > ul {
+        display: block;
+        position: relative;
+        margin-left: 15px;
+        background-color: rgba(191,88,65,0.25);
+        line-height: 2em;
+        padding-left: 0.5em;
+    }
+    ul li a {
+        display: inline-flex;
+        text-decoration: none;
+        position: relative;
+    }
+     ul li a:hover {
+        font-weight: bold;
+    }
+     ul ul {
+        display: none;
+        position: relative;
+    }
+
+     ul ul li {
+        position: relative;
+    }
+    nav::after {
+        content :''; 
+        display: block; 
+        clear: both;
+    }
+    nav a[aria-haspopup="true"]::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 15px;
+        left: 220px;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 14px solid #000000;
+    }
+    a.btn {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: black;
+        background-image: linear-gradient(to right, rgba(140,106,3,0.8), rgba(242,139,12,0.8), rgba(191,88,65,0.8));
+        padding: .5em .2em .2em .2em;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        width: 280px;
+        height: 75px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    a.btn:hover {
+        background-image: linear-gradient(to right, rgba(140,106,3,0.6), rgba(242,139,12,0.6), rgba(191,88,65,0.6));
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /*mobile main*/
+    main {
+        margin-bottom: 30px;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+    }
+    main a {
+        text-decoration: underline;
+    }
+    main a:hover {
+        text-decoration: underline;
+    }
+  
+    /*mobile image container element*/
+    .imgContainer {
+        margin-right: 0;
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+    }
+    .imgContainer a, .imgContainerMore a, .CategoryimgContainer a{
+        text-decoration: none;
+    }
+    .CategoryimgContainer {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+        padding-top: 100px;
+        margin-bottom: 0;
+    }
+    .imgContainerMore {
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+    }
+    .imgContainer h1, .imgContainerMore h1, .CategoryimgContainer h1 {
+        color: #A64F03;
+        background-color: #E0D39D;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+
+        margin-bottom: 2px;
+    }
+    .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+    .imgContainer img, .imgContainerMore img, .CategoryimgContainer img {
+        width: 250px;
+        margin-bottom: 1em;
+        border-radius: 10px;
+    }  
+    .imgContainer img:hover, .imgContainerMore img:hover, .CategoryimgContainer img:hover {
+        border-color: #F28B0C;
+        border-width: 2px;
+        border: 2px solid;
+    }
+ 
+    /*mobile recipe page styles*/
+    #recipe {
+        background-color: #E0D39D;
+        margin: 0 2px 0 2px;
+    }
+    #recipe img {
+        width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    #recipe h1 {
+        padding-top: 125px;
+        margin-bottom: 0;
+        font-size: 2em;
+        text-align: center;
+        line-height: 1em;
+        color: #A64F03;
+    }
+    #recipe h2 {
+        margin: 10px 5px 2px 10px;
+    }
+    #recipe h4 {
+        display: inline-grid;
+        width: 36%;
+        font-size: .85em;
+        font-weight: 500;
+        float: right;
+        margin-top: 5px;
+        margin-right: 3px;
+    }
+    #recipe p {
+        display: inline-grid;
+        margin: 15px 0 6px 15px;
+    }
+    .prepcook {
+        color: black;
+        padding-left: 05px;
+    }
+    .description {
+        display: none;
+    }
+    #ingredients {
+        position:relative;
+        margin-top: 85px;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    #instructions, #substitutions {
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    #complementary img {
+        width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    #complementary h4 {
+        font-size: 1.5em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        text-align: center;
+        background-color: #E0D39D;
+    }
+    /*this is redundant on the main page, therefore it is hidden*/
+    #homecontainer {
+        visibility: hidden;
+        display: none;
+    }
+}
+/* Tablet media query and styles*/
+@media screen and (min-width: 581px) and (max-width: 1025px) {
+    .phone a {
+        height: 15px;
+    }
+    .phone img {
+        height: 48px;
+        margin-right: 5px;
+        margin-left: 25px;
+    }
+    page {
+        height: calc(100vh);
+    }
+    header {
+        width: 100%;
+        position: fixed;
+        text-decoration: none;
+        margin-left: 0;
+        top: 5px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #1E1E23;
+        opacity:1;
+        font-size: 1.5em;
+        font-weight: 400;
+        transition: 200ms;
+        z-index: 2;
+    }
+    .hamburgercontainer {
+        display: inline;
+        justify-content: left;
+        width: 100%;
+        top:0;
+        left: 0;
+    }
+    nav {
+        background-color: black;
+        height: 70px;
+        width: 75px;
+        margin: 5px;
+        top: 0;
+        left: 25px;
+    }
+    nav a:visited {
+        color: black;
+    }
+    #menuToggle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+        user-select: none;
+    }
+    #menuToggle input {
+        display: flex;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+    #menuToggle span {
+        display: flex;
+        width: 29px;
+        height: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        box-shadow: 0 0 10px black;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked ~ span {
+        transform: rotate(45deg) translate(-3px, -1px);
+        background: #36383F;
+    }
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu {
+        position: absolute;
+        width: 250px;
+        height: 550px;
+        box-shadow: 0 0 10px #85888C;
+        margin: -50px 0 0 -50px;
+        padding-left: 85px;
+        padding-top: 30px;
+        background-image: linear-gradient(to right, rgba(140,106,3,1), rgba(242,139,12,1), rgba(191,88,65,1));
+        border-radius: 10px;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        transition-delay: 2s;
+    }
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+    .logo {
+        float: right;
+        margin-right: 15px;
+        height: 5px;
+    }
+    
+ /* tablet Main */
+    .mobilenavigationhome {
+        background-color: black;
+        position: relative;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .mobilenavigationhome::after {
+        display: block;
+        clear: both;
+    }
+    .mobilenavigationhome img {
+        padding-right: 55px;
+    }
+    li {
+        flex: 1 0 auto;
+        text-decoration: none;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;  
+        text-decoration: none;
+    }
+    ul li:hover {
+        font-weight: bold;
+    }
+    ul li:hover > ul {
+        display: block;
+        position: relative;
+        margin-left: 15px;
+        background-color: rgba(191,88,65,0.25);
+        line-height: 2em;
+        padding-left: 0.5em;
+    }
+    ul li a {
+        display: inline-flex;
+        text-decoration: none;
+        position: relative;
+    }
+     ul li a:hover {
+        font-weight: bold;
+    }
+     ul ul {
+        display: none;
+        position: relative;
+    }
+
+     ul ul li {
+        position: relative;
+    }
+    nav::after {
+        content :''; 
+        display: block; 
+        clear: both;
+    }
+    nav a[aria-haspopup="true"]::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 15px;
+        left: 220px;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 14px solid #000000;
+    }
+    a.btn {
+        font-size: 2.75em;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        background-image: linear-gradient(to right, rgba(140,106,3,0.8), rgba(242,139,12,0.8), rgba(191,88,65,0.8));
+        padding: .5em .2em .2em .2em;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        width: 580px;
+        height: 75px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    a.btn:hover {
+        background-image: linear-gradient(to right, rgba(140,106,3,0.8), rgba(242,139,12,0.8), rgba(191,88,65,0.8));
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /*tablet main*/
+    main {
+        margin-bottom: 30px;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+        
+    }
+    main a {
+        text-decoration: underline;
+    }
+    main a:hover {
+        text-decoration: underline;
+    }
+  
+    /*tablet image container element*/
+    .imgContainer {
+        margin-right: 0;
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+    }
+    .imgContainer a, .imgContainerMore a, .CategoryimgContainer a{
+        text-decoration: none;
+    }
+    .CategoryimgContainer {
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+        padding-top: 100px;
+    }
+    .imgContainerMore {
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+        background-color: #E0D39D;
+    }
+    .imgContainer h1, .imgContainerMore h1, .CategoryimgContainer h1 {
+        color: #A64F03;
+        background-color: #E0D39D;
+        text-align: center;
+    }
+    .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+    .imgContainer img, .imgContainerMore img, .CategoryimgContainer img {
+        height: 300px;
+        margin-bottom: 1em;
+        vertical-align: middle;
+        border-radius: 10px;
+    }  
+    .imgContainer img:hover, .imgContainerMore img:hover, .CategoryimgContainer img:hover {
+        border-color: #F28B0C;
+        border-width: 2px;
+        border: 2px solid;
+    }
+
+    /*tablet recipe page styles*/
+    #recipe {
+        background-color: #E0D39D;
+        margin: 0 2px 0 2px;
+    }
+    #recipe img {
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    #recipe h1 {
+        padding-top: 125px;
+        margin-bottom: 0;
+        font-size: 3em;
+        text-align: center;
+        line-height: 1em;
+        color: #A64F03;
+    }
+    #recipe h2 {
+        margin: 10px 5px 2px 10px;
+    }
+    #recipe h4 {
+        display: inline-grid;
+        width: 36%;
+        font-size: .85em;
+        font-weight: 500;
+        float: right;
+        margin-top: 5px;
+        margin-right: 3px;
+    }
+    #recipe p {
+        display: inline-grid;
+        margin: 15px 0 6px 15px;
+    }
+    .prepcook {
+        color: black;
+        padding-left: 05px;
+    }
+    .description {
+        display: none;
+    }
+    #ingredients {
+        position:relative;
+        margin-top: 85px;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    #instructions, #substitutions {
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    #substitutions li {
+        padding-left: 20px;
+    }
+    #complementary img {
+        width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    #complementary h4 {
+        font-size: 1.5em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        text-align: center;
+        background-color: #E0D39D;
+        color: #A64F03;
+    }
+    /*this is redundant on the main page, therefore it is hidden*/
+    #homecontainer {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/* large Desktop media query and styles */
+@media screen and (min-width: 1026px) and (max-width: 1386px) {
+    .logo {
+        visibility: hidden;
+    }
+    .btn {
+        visibility: hidden;
+        display: none;
+    }
+    main {
+        background-color: black;
+        line-height: 1.75em;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .activepage {
+        border: 2px;
+        border-style: ridge;
+        border-radius: 15px;
+        border-color: #F28B0C;
+        background-color: rgba(217,64,4,0.4);
+    }
+    .mobilenavigationhome {
+        display: none;
+        visibility: hidden;
+    }
+    #menuToggle input {
+        display: none;
+    }
+    /* large desktop header*/
+    header {
+        background-image: linear-gradient(to right, rgba(140,106,3,.95), rgba(242,139,12,.95), rgba(191,88,65, .95));
+        width: 100%;
+        height: 145px;
+        position: fixed;
+        text-decoration: none;
+        display: inline-block;
+        z-index: 3;
+        top: 0;
+    }
+    
+    /*  large desktop navigation */
+    nav {
+        position: absolute;
+        top: 0px;
+        display: inline;
+    }
+    nav a {
+        display: inline;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    nav::after {
+        content:'';
+        display: block;
+        clear: both;
+    }
+    nav ul {
+        list-style: none;
+        margin-left: 55px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: inline-block;
+    }
+    nav ul li:hover > ul {
+        display: block;
+    }
+    nav ul li a {
+        display: inline-block;
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        position: relative;
+        width: 115px;
+        height: 100px;
+        padding-left: 5px;
+        padding-top: 10px;
+        margin-left: 5px;
+        border-style: ridge;
+        border-radius: 15px;
+        border-color: rgba(217,64,4,0.4);
+    }
+    nav ul li a:visited {
+        color: black;
+    }
+    nav ul li a:hover {
+        background-color: #F28B0C;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+        height: 550px;
+    }
+    nav ul ul li {
+        position: relative;
+        display: block;
+        left: 45px;
+        z-index: 3;
+        background-color: #F28B0C;
+        width: 250px; 
+        float: none;
+    }
+    
+    /*  large top-level desktop navigation */
+    nav > ul {
+        padding-left: 200px;
+    }
+    nav > ul > li {
+        float: left;
+    }
+    nav > ul > li >a {
+        width: auto;
+        padding: 10px 20px 15px 20px;
+    }
+    
+/* large desktop image container elements*/
+    main h1 {
+        font-size: 3em;
+        width: 85%;
+        grid-column: 1 / span 4;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(217,64,4,0.4);
+        color: white;
+        border: 3px groove;
+        border-color: #D4D49F;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 0;
+        line-height: 1.25em;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        text-shadow: 1px 1px #D4D49F;
+    }
+    .imgContainerMore {
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+    }
+    .imgContainer, .CategoryimgContainer {
+        margin-right: 0;
+        margin-top: 145px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+    }
+    .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+    .imgContainer img, .imgContainerMore img, .CategoryimgContainer img {
+        height: 300px;
+        margin-bottom: 1em;
+        vertical-align: middle;
+        border-radius: 10px;
+    }  
+    .imgContainer img:hover, .imgContainerMore img:hover, .CategoryimgContainer img:hover {
+        border-color: #F28B0C;
+        border-width: 2px;
+        border: 2px solid;
+    }
+        
+   /* large desktop recipe page styles*/
+    #recipe {
+        margin-top: 145px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        margin-bottom: 15px;
+    }
+    .description {
+        width: 175%;
+        line-height: 2.25em;
+        font-size: 1.25em;
+    }
+    #instructions ol li, #substitutions ul li {
+        margin-bottom: 15px;
+    }
+    #recipe h1 {
+        font-size: 3em;
+        width: 100%;
+        grid-column: 1 / span 4;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(217,64,4,0.4);
+        color: snow;
+        border-color: #D93D04;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        line-height: 1.25em;
+    }
+    #recipe img {
+        width: 425px ;
+        margin-right: 15px;
+        margin-left: 25px;
+        grid-area: 2 / 1 / 3 / 2;
+        border-radius: 10px;
+    }
+    #recipe h2 {
+        margin: 10px 5px 2px 10px;
+    }
+    #recipe h4 {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-right: 10px;
+        grid-column: 2 / span 3;
+    }
+    #recipe h5 {
+        text-indent: 10px;
+        margin-bottom: 0;
+        font-size: 1.25em;
+    }
+    #recipe p {
+        margin: 15px 0 6px 15px;
+    }
+    #recipe a {
+        text-decoration: underline;
+        color: #E0D39D;
+    }
+    .prepcook {
+        padding-top: 35px;
+    }
+    #ingredients {
+        grid-area: 4 / 1 / 5 / 5;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 25px;
+        font-size: 1.25em;
+    }
+    #instructions {
+        grid-area: 6 / 1 / 7 / 3;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        font-size: 1.25em;
+    }
+    #substitutions {
+        grid-area: 8 / 1 / 7 / 3;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        font-size: 1.25em;
+    }
+    #complementary {
+        grid-area: 6 / 4 / 8 / 4;
+        margin: 10px;
+        justify-self: center;
+        justify-content: center;
+        text-align: center;
+        color: #E0D39D;
+    }
+    #complementary img {
+        width: 325px;
+    }
+    #complementary a {
+        text-decoration: none;
+        color: #E0D39D;
+    }
+    #complementary img:hover {
+        border: 1px solid;
+        border-color: #F28B0C;
+        border-width: 2px;
+    }
+    #complementary h4 {
+        margin-left: 5px;
+        font-size: 1.25em;
+        color: #E0D39D;
+        border-top: 0;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    #complementary h4:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+}
+
+/* extra large desktop media query and styles */
+@media screen and (min-width: 1387px) {
+    .logo {
+        visibility: hidden;
+    }
+    .btn {
+        visibility: hidden;
+        display: none;
+    }
+    main {
+        background-color: black;
+        line-height: 1.75em;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .activepage {
+        border: 2px;
+        border-style: ridge;
+        border-radius: 15px;
+        border-color: #F28B0C;
+        background-color: rgba(217,64,4,0.4);
+    }
+    .mobilenavigationhome {
+        display: none;
+        visibility: hidden;
+    }
+    #menuToggle input {
+        display: none;
+    }
+    /*extra large desktop header*/
+    header {
+        background-image: linear-gradient(to right, rgba(140,106,3,.95), rgba(242,139,12,.95), rgba(191,88,65, .95));
+        width: 100%;
+        height: 145px;
+        position: fixed;
+        text-decoration: none;
+        display: inline-block;
+        z-index: 3;
+        top: 0;
+    }
+    
+    /* extra large desktop navigation */
+    nav {
+        position: absolute;
+        top: 0px;
+        display: inline;
+    }
+    nav a {
+        display: inline;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    nav::after {
+        content:'';
+        display: block;
+        clear: both;
+    }
+    nav ul {
+        list-style: none;
+        margin-left: 205px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: inline-block;
+    }
+    nav ul li:hover > ul {
+        display: block;
+    }
+    nav ul li a {
+        display: inline-block;
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+        position: relative;
+        width: 125px;
+        height: 100px;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-left: 25px;
+        border-style: ridge;
+        border-radius: 15px;
+        border-color: rgba(217,64,4,0.4);
+    }
+    nav ul li a:visited {
+        color: black;
+    }
+    nav ul li a:hover {
+        background-color: #F28B0C;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+        height: 550px;
+    }
+    nav ul ul li {
+        position: relative;
+        display: block;
+        left: 45px;
+        z-index: 3;
+        background-color: #F28B0C;
+        width: 250px; 
+        float: none;
+    }
+    
+    /* extra large top-level desktop navigation */
+    nav > ul {
+        padding-left: 200px;
+    }
+    nav > ul > li {
+        float: left;
+    }
+    nav > ul > li >a {
+        width: auto;
+        padding: 10px 20px 15px 20px;
+    }
+    
+/* extra large desktop image container elements*/
+    main h1 {
+        font-size: 3em;
+        width: 85%;
+        grid-column: 1 / span 4;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(217,64,4,0.4);
+        color: white;
+        border: 3px groove;
+        border-color: #D4D49F;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 0;
+        line-height: 1.25em;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        text-shadow: 1px 1px #D4D49F;
+    }
+    .imgContainerMore {
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+    }
+    .imgContainer, .CategoryimgContainer {
+        margin-right: 0;
+        margin-top: 145px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto;
+        padding: 2px;
+        justify-content: center;
+        align-content: space-around;
+        width: 100%;
+    }
+    .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+    .imgContainer img, .imgContainerMore img, .CategoryimgContainer img {
+        height: 300px;
+        margin-bottom: 1em;
+        vertical-align: middle;
+        border-radius: 10px;
+    }  
+    .imgContainer img:hover, .imgContainerMore img:hover, .CategoryimgContainer img:hover {
+        border-color: #F28B0C;
+        border-width: 2px;
+        border: 2px solid;
+    }
+        
+   /*extra large desktop recipe page styles*/
+    #recipe {
+        margin-top: 145px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        margin-bottom: 15px;
+    }
+    .description {
+        width: 175%;
+        line-height: 2.25em;
+        font-size: 1.25em;
+    }
+    #instructions ol li, #substitutions ul li {
+        margin-bottom: 15px;
+    }
+    #recipe h1 {
+        font-size: 3em;
+        width: 100%;
+        grid-column: 1 / span 4;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(217,64,4,0.4);
+        color: snow;
+        border-color: #D93D04;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        line-height: 1.25em;
+    }
+    #recipe img {
+        width: 425px ;
+        margin-right: 15px;
+        margin-left: 25px;
+        grid-area: 2 / 1 / 3 / 2;
+        border-radius: 10px;
+    }
+    #recipe h2 {
+        margin: 10px 5px 2px 10px;
+    }
+    #recipe h4 {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-right: 10px;
+        grid-column: 2 / span 3;
+    }
+    #recipe h5 {
+        text-indent: 10px;
+        margin-bottom: 0;
+        font-size: 1.25em;
+    }
+    #recipe p {
+        margin: 15px 0 6px 15px;
+    }
+    #recipe a {
+        text-decoration: underline;
+        color: #E0D39D;
+    }
+    .prepcook {
+        padding-top: 35px;
+    }
+    #ingredients {
+        grid-area: 4 / 1 / 5 / 5;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 25px;
+        font-size: 1.25em;
+    }
+    #instructions {
+        grid-area: 6 / 1 / 7 / 3;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        font-size: 1.25em;
+    }
+    #substitutions {
+        grid-area: 8 / 1 / 7 / 3;
+        border: 1px solid;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        font-size: 1.25em;
+    }
+    #complementary {
+        grid-area: 6 / 4 / 8 / 4;
+        margin: 10px;
+        justify-self: center;
+        justify-content: center;
+        text-align: center;
+        color: #E0D39D;
+    }
+    #complementary img {
+        width: 325px;
+    }
+    #complementary a {
+        text-decoration: none;
+        color: #E0D39D;
+    }
+    #complementary img:hover {
+        border: 1px solid;
+        border-color: #F28B0C;
+        border-width: 2px;
+    }
+    #complementary h4 {
+        margin-left: 5px;
+        font-size: 1.25em;
+        color: #E0D39D;
+        border-top: 0;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    #complementary h4:hover {
+        color: #F28B0C;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            GIT414: Assignment 7
+            Author: Autumn Belon
+            Date: Dec 3, 2020
+        -->
+        <!--Colors:
+            #6F7302 green
+            #8C6A03 green/brown
+            #A64F03 reddish brown
+            #F28B0C mustard yellow
+            #D93D04 orange red
+        -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="To contact us to request a recipe that you do not see featured, or for general questions, please complete and submit the form.">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css"> 
+        <script src="modernizr.min.js"></script>
+        <title>Contact - Autumn All Year</title>
+    </head>
+    <body>
+        <div id="page">
+            <header role="banner">
+                <a class="logo" href="index.html"> <img src="images/logo.png" alt="Autumn All Year"></a>
+                
+        <div class="hamburgercontainer">       
+      <div class="phone">
+        <div class="content">
+          
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                    <ul id="menu">
+                        <li><a title="Autumn All Year" href="index.html">Autumn All year</a></li>
+                        <!--li><a title="Explore">Explore</a>
+                            <ul>
+                                <li><a title="Ruminants" href="#">Ruminants</a></li>
+                                <li><a title="Poultry" href="#">Poultry</a></li>
+                                <li><a title="Fish and Seafood" href="#">Fish &amp; Seafood</a></li>
+                                <li><a title="Sauces" href="#">Sauces</a></li>
+                            </ul>
+                        </li-->
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="activepage">Contact</a></li>
+                    </ul>
+              </div>
+            </nav>
+          </div>
+                    </div>
+                </div>
+                </header>
+            <main role="main">
+                
+                <article role="article" class="contact-us">
+                    <h3>To contact us to request a recipe that you do not see featured, or for general questions, please complete the form below:</h3>
+                    </article>
+                    <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                        *All fields are required
+                        <input type="text" name="name" id="name" required="required" placeholder="Name">
+                        <input type="email" name="emailAddress" id="emailAddress" required="required" placeholder="Email Address">
+                        <textarea name="message" id="message" rows="6" cols="45" required="required" placeholder="Your Message"></textarea>
+                        <p id="message"></p>
+                        <span id="displayError"></span><br><br>
+                        <input type="submit" id="submitButton" value="Submit">
+                        <input type="reset" id="resetButton" value="Clear Form">
+                
+                        <script>
+                        function validateForm(event) {
+                            event.preventDefault();
+                            var formIsValid = true;
+                            
+                            var name = document.getElementById("name");
+                            if (name.value === "") {
+                                document.getElementById("displayError").innerHTML = "Please complete all fields.";
+                                formIsValid = false;
+                            }
+                            
+                            var emailAddress = document.getElementById("emailAddress");
+                            if (emailAddress.value === "") {
+                                document.getElementById("displayError").innerHTML = "Please complete all fields.";
+                                formIsValid = false;
+                            }
+                            
+                            var message = document.getElementById("message");
+                            if (message.value === "") {
+                                document.getElementById("displayError").innerHTML = "Please complete all fields.";
+                                formIsValid = false;
+                            }
+                            
+                            
+                        var myForm = document.forms[0];
+                        
+                        if(formIsValid) {
+                                myForm.submit();
+                            }
+                        }
+                                     
+                        function createEventListeners() {
+                            var submitButton = document.getElementById("submitButton");
+                            submitButton.addEventListener("click", validateForm, false);
+                        }
+                        window.addEventListener("load", createEventListeners, false);   
+                        
+                    </script>
+                       
+                </form>  
+                </main>
+            <!--footer role="contentinfo">
+                
+                <div class="content">
+                <section class="question">  
+                    <a href="mailto:questions@autumnallyear.com"><img id="email" src="images/email.png" alt="Compose Email Button"><p>Have a question?</p><br><p>questions@autumnallyear.com</p></a><br>
+                </section>
+                <section class="socialmedia">
+                    <a title="Follow us on Facebook" href="https://www.facebook.com/Autumn-All-Year-102007851346346"><img src="images/facebookbutton.png" alt="Link to Facebook Page"></a>
+                    <a title="Follow us on Twitter" href="#"><img src="images/twitterbutton.png" alt="Link to Twitter Page"></a>
+                    </section>
+                </div>
+                <section class="copyright">
+                Copyright &copy; 2020 Autumn All Year - All Rights Reserved. This site is for educational purposes only.
+                </section>
+                <script>
+                document.getElementsByTagName("p")[1].style.color = "white";
+                </script>
+            </footer-->
+        </div>
+    </body>
+</html>
