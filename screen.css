@@ -586,7 +586,7 @@ textarea {
         margin: -50px 0 0 -50px;
         padding-left: 85px;
         padding-top: 30px;
-        background-image: linear-gradient(to right, rgba(140,106,3,.95), rgba(242,139,12,.95), rgba(191,88,65, .95));
+        background-image: linear-gradient(to right, rgba(140,106,3,1), rgba(242,139,12,1), rgba(191,88,65,1));
         border-radius: 10px;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
