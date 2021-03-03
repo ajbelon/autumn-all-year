@@ -364,7 +364,6 @@ template {
 
 /* Global styles */
 
-/* text */
 .prepcook {
     color: white;
     position: absolute;
@@ -372,6 +371,9 @@ template {
 .prepcook ul {
     list-style-type: none;
     line-height: 1em;
+}
+main {
+    padding-bottom:25px;
 }
 body {
     z-index: 1;
@@ -413,6 +415,35 @@ a {
 a:visited {
     color: #F28B0C;
     text-decoration: none;
+}
+footer {
+    column-count: 2;
+    column-gap: 50px;
+    border-top: 1px;
+    border-color: grey;
+    border-style: groove;
+    padding-top: 25px;
+    background-color: black;
+    color: white;
+}
+.about {
+    width: 80%;
+    text-align: right;
+}
+.design {
+    width:80%;
+    text-align: left;   
+}
+#aboutBlurb {
+    padding: 150px 75px 25px 75px;
+    background-color: black;
+    color: white;
+    font-size: 1.75em;
+}
+#aboutBlurb img {
+    float: left;
+    margin: 2px 15px 3px 0px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 /* Mobile media query and styles */
@@ -688,6 +719,7 @@ a:visited {
         background-color: #E0D39D;
         text-align: center;
         margin-bottom: 0;
+        width: 100%;
     }
     .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
         color: black;
@@ -797,6 +829,11 @@ a:visited {
 }
 /* Tablet media query and styles*/
 @media screen and (min-width: 581px) and (max-width: 1025px) {
+    #aboutBlurb {
+        margin-left: 15px;
+        margin-right: 10px;
+        background-color: #E0D39D;
+    }
     .phone a {
         height: 15px;
     }
@@ -1076,6 +1113,8 @@ a:visited {
         color: #A64F03;
         background-color: #E0D39D;
         text-align: center;
+        float: none;
+        width: 100%;
     }
     .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
         color: black;
@@ -1368,6 +1407,7 @@ a:visited {
         text-decoration: none;
         margin-top: 5px;
         margin-bottom: 2px;
+        width=100%;
     }
     .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
         color: #F28B0C;
