@@ -426,6 +426,9 @@ footer {
     background-color: black;
     color: white;
 }
+footer img {
+    height: 50px;
+}
 .about {
     width: 80%;
     text-align: right;
@@ -439,6 +442,7 @@ footer {
     background-color: black;
     color: white;
     font-size: 1.75em;
+    height: 625px;
 }
 #aboutBlurb img {
     float: left;
