@@ -364,6 +364,7 @@ template {
 
 /* Global styles */
 
+/* text */
 .prepcook {
     color: white;
     position: absolute;
@@ -371,9 +372,6 @@ template {
 .prepcook ul {
     list-style-type: none;
     line-height: 1em;
-}
-main {
-    padding-bottom:25px;
 }
 body {
     z-index: 1;
@@ -415,39 +413,6 @@ a {
 a:visited {
     color: #F28B0C;
     text-decoration: none;
-}
-footer {
-    column-count: 2;
-    column-gap: 50px;
-    border-top: 1px;
-    border-color: grey;
-    border-style: groove;
-    padding-top: 25px;
-    background-color: black;
-    color: white;
-}
-footer img {
-    height: 50px;
-}
-.about {
-    width: 80%;
-    text-align: right;
-}
-.design {
-    width:80%;
-    text-align: left;   
-}
-#aboutBlurb {
-    padding: 150px 75px 25px 75px;
-    background-color: black;
-    color: white;
-    font-size: 1.75em;
-    height: 625px;
-}
-#aboutBlurb img {
-    float: left;
-    margin: 2px 15px 3px 0px;
-    border-radius: 15px 15px 15px 15px;
 }
 
 /* Mobile media query and styles */
@@ -680,8 +645,8 @@ footer img {
   
     /*mobile image container element*/
     .imgContainer {
-        margin-right: 0;
-        margin-top: 0;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
         grid-gap: 10px;
@@ -723,13 +688,11 @@ footer img {
         background-color: #E0D39D;
         text-align: center;
         margin-bottom: 0;
-        width: 100%;
     }
     .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
         color: black;
         text-align: center;
         text-decoration: none;
-
         margin-bottom: 2px;
     }
     .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
@@ -794,7 +757,7 @@ footer img {
     }
     #ingredients {
         position:relative;
-        margin-top: 100px;
+        margin-top: 85px;
         border: 1px solid;
         border-radius: 15px;
         margin-bottom: 5px;
@@ -830,14 +793,21 @@ footer img {
         visibility: hidden;
         display: none;
     }
+    /*mobile footer*/
+    footer {
+        column-count: 2;
+        column-gap: 50px;
+        border-top: 1px;
+        border-color: grey;
+        border-style: groove;
+        height: 100%;
+        margin-top: 0;
+        background-color: black;
+        color: white;
+    }
 }
 /* Tablet media query and styles*/
 @media screen and (min-width: 581px) and (max-width: 1025px) {
-    #aboutBlurb {
-        margin-left: 15px;
-        margin-right: 10px;
-        background-color: #E0D39D;
-    }
     .phone a {
         height: 15px;
     }
@@ -1117,8 +1087,6 @@ footer img {
         color: #A64F03;
         background-color: #E0D39D;
         text-align: center;
-        float: none;
-        width: 100%;
     }
     .imgContainer h2, .imgContainerMore h2, .CategoryimgContainer h2 {
         color: black;
@@ -1190,7 +1158,7 @@ footer img {
     }
     #ingredients {
         position:relative;
-        margin-top: 100px;
+        margin-top: 85px;
         border: 1px solid;
         border-radius: 15px;
         margin-bottom: 5px;
@@ -1411,7 +1379,6 @@ footer img {
         text-decoration: none;
         margin-top: 5px;
         margin-bottom: 2px;
-        width=100%;
     }
     .imgContainer h2:hover, .imgContainerMore h2:hover, .CategoryimgContainer h2:hover {
         color: #F28B0C;
@@ -1492,7 +1459,7 @@ footer img {
         color: #E0D39D;
     }
     .prepcook {
-        padding-top: 25px;
+        padding-top: 35px;
     }
     #ingredients {
         grid-area: 4 / 1 / 5 / 5;
@@ -1718,11 +1685,12 @@ footer img {
     .imgContainer, .CategoryimgContainer {
         margin-right: 0;
         margin-top: 145px;
+        margin-bottom: 0;
         display: flex;
         flex-wrap: wrap;
         grid-gap: 10px;
         grid-template-columns: auto auto auto auto;
-        padding: 2px;
+        padding: 2px 2px 0 2px;
         justify-content: center;
         align-content: space-around;
         width: 100%;
@@ -1813,7 +1781,7 @@ footer img {
         color: #E0D39D;
     }
     .prepcook {
-        padding-top: 25px;
+        padding-top: 35px;
     }
     #ingredients {
         grid-area: 4 / 1 / 5 / 5;
@@ -1873,4 +1841,24 @@ footer img {
         color: #F28B0C;
         font-weight: bold;
     }
+    
+    /*Extra large desktop footer*/
+    footer {
+        display: inline-block;
+        float: none;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        background-color: white;
+        color: black;
+        padding: 15px 0 15px 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    footer a {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
 }
