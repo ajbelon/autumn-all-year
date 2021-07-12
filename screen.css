@@ -391,10 +391,10 @@ template {
 .cookprep:after {
     clear: both;
 }
-video {
+#videoStyle {
     max-width: 100%;
     height: auto;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 body {
     z-index: 1;
