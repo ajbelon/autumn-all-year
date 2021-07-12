@@ -391,7 +391,11 @@ template {
 .cookprep:after {
     clear: both;
 }
-
+video {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
 body {
     z-index: 1;
     font-family: 'Quicksand', sans-serif;
@@ -908,6 +912,7 @@ textarea {
     #complimentary {
         visibility: hidden;
     }
+    
     /*this is redundant on the main page, therefore it is hidden*/
     #homecontainer {
         visibility: hidden;
