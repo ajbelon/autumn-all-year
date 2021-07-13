@@ -1336,9 +1336,8 @@ textarea {
         grid-template-columns: auto auto auto auto;
         padding: 2px;
         justify-content: center;
-        align-content: space-around;
+        align-content: center;
         width: 100%;
-
     }
     .imgContainer h2 {
         display: none;
@@ -1347,6 +1346,9 @@ textarea {
         width: 200px;
         margin-bottom: 1em;
         vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
     }  
     /*desktop about page styles*/
     #aboutBlurb {
@@ -1599,7 +1601,7 @@ textarea {
         grid-template-columns: auto auto auto auto;
         padding: 2px;
         justify-content: center;
-        align-content: space-around;
+        align-content:center;
         width: 100%;
 
     }
@@ -1610,6 +1612,9 @@ textarea {
         width: 300px;
         margin-bottom: 1em;
         vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
     }  
     /*extra large desktop about page styles*/
     #aboutBlurb {
