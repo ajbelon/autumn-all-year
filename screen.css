@@ -396,7 +396,7 @@ template {
     height: auto;
     padding-left: 50px;
 }
-#ad {
+.ad {
     margin-left: auto;
     margin-right: auto;
     max-width: 60%;
